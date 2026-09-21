@@ -56,8 +56,6 @@ Selama program berjalan, validasi input digunakan untuk mencegah kesalahan seper
 <img width="547" height="227" alt="image" src="https://github.com/user-attachments/assets/a4155e0a-f7d4-4d3f-993f-aaf6cac54e1f" />
 
 
----
-
 # Struktur Project
 Program dibagi menjadi beberapa package agar setiap bagian memiliki tugas yang berbeda.
 Package yang digunakan terdiri dari:
@@ -93,6 +91,7 @@ Dengan menggunakan access modifier, data di dalam class menjadi lebih terkontrol
 Encapsulation diterapkan dengan membuat atribut menjadi `private`, kemudian menyediakan getter dan setter untuk mengakses atau mengubah data.
 
 Contohnya:
+
 <img width="441" height="299" alt="image" src="https://github.com/user-attachments/assets/6ff314ae-7c05-4464-bcd7-f47d2ea193f4" />
 
 ### Alasan Menggunakan Encapsulation
@@ -257,11 +256,7 @@ Controller digunakan untuk mengatur proses pengelolaan data UMKM, seperti:
 
 Contohnya:
 
-```java
-public void tambahUMKM(UMKM umkm) {
-    daftarUMKM.add(umkm);
-}
-```
+<img width="663" height="523" alt="image" src="https://github.com/user-attachments/assets/8c49609f-ec57-4389-a263-7ecc3919756e" />
 
 ### Alasan Menggunakan Controller
 
@@ -271,13 +266,6 @@ Contohnya ketika pengguna memilih menu tambah data, `UMKMView` menerima input da
 
 Dengan begitu, View hanya berfokus pada tampilan dan input, sedangkan Controller menangani proses pengelolaan data.
 
-### Screenshot Controller
-
-<!-- Masukkan screenshot UMKMController.java -->
-
-![Controller](gambar/controller.png)
-
----
 
 ## Alasan Menggunakan MVC Sebagai Nilai Tambah
 
@@ -297,23 +285,11 @@ Contohnya pada proses tambah data:
 
 MVC digunakan agar kode program lebih terstruktur, lebih mudah dibaca, dan lebih mudah dikembangkan jika nantinya ingin menambahkan fitur baru.
 
-### Screenshot Penerapan MVC
-
-<!-- Masukkan screenshot struktur package MVC dari NetBeans -->
-
-![Penerapan MVC](gambar/mvc.png)
-
----
-
 # Tampilan Program
 
 ## 1. Menu Utama
 
-<!-- Masukkan screenshot menu utama di sini -->
-
-![Menu Utama](gambar/menu-utama.png)
-
----
+<img width="430" height="197" alt="image" src="https://github.com/user-attachments/assets/fe5a6039-ff00-4f0d-ae56-d74afdf51ca2" />
 
 ## 2. Tambah Data UMKM
 
