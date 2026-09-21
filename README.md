@@ -75,15 +75,7 @@ Package yang digunakan terdiri dari:
 Pada program ini, atribut dalam class dibuat menggunakan access modifier `private`.
 
 Contohnya pada class `UMKM`:
-
-```java
-private int idUMKM;
-private String namaUsaha;
-private String namaPemilik;
-private JenisUsaha jenisUsaha;
-private Event event;
-```
-
+<img width="438" height="119" alt="image" src="https://github.com/user-attachments/assets/12a341e8-dcd8-4c3e-ac74-b4006e7905c0" />
 ### Alasan Menggunakan Access Modifier
 
 `private` digunakan agar atribut pada object UMKM tidak dapat diakses dan diubah secara langsung dari class lain.
@@ -93,11 +85,6 @@ Data seperti nama usaha, nama pemilik, dan jenis usaha perlu dikontrol ketika ak
 Data tersebut nantinya diakses menggunakan getter dan setter.
 
 Dengan menggunakan access modifier, data di dalam class menjadi lebih terkontrol dan tidak dapat diubah secara langsung dari luar class.
-
-### Screenshot Access Modifier
-
-<img width="438" height="119" alt="image" src="https://github.com/user-attachments/assets/12a341e8-dcd8-4c3e-ac74-b4006e7905c0" />
-
 
 ## 2. Encapsulation
 
