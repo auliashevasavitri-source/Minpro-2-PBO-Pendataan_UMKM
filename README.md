@@ -1,4 +1,6 @@
-# Minpro-2-PBO-Sistem-Pendataan-UMKM
+# Sistem-Pendataan-UMKM
+
+AULIA SHEVA SAVITRI | 2509116001
 
 ## Deskripsi Program
 
