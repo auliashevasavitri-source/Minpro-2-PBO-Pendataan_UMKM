@@ -294,63 +294,17 @@ MVC digunakan agar kode program lebih terstruktur, lebih mudah dibaca, dan lebih
 
 ## 3. Tampilkan Data UMKM
 
+<img width="380" height="318" alt="image" src="https://github.com/user-attachments/assets/31f234bd-10fd-4486-a7cc-76dad99564b5" />
 
 
 ## 4. Ubah Data UMKM
 
-<!-- Masukkan screenshot proses ubah data di sini -->
+![Uploading image.png…]()
 
-![Ubah Data](gambar/ubah-data.png)
-
----
 
 ## 5. Hapus Data UMKM
 
-<!-- Masukkan screenshot proses hapus data di sini -->
-
-![Hapus Data](gambar/hapus-data.png)
-
----
-
-## 6. Validasi Input
-
-<!-- Masukkan screenshot ketika program memberikan pesan validasi -->
-
-![Validasi Input](gambar/validasi.png)
-
----
-
-# Contoh Output Program
-
-## Menu Utama
-
-```text
-==================================
-     SISTEM PENDATAAN UMKM
-==================================
-1. Tambah Data UMKM
-2. Tampilkan Data UMKM
-3. Ubah Data UMKM
-4. Hapus Data UMKM
-5. Keluar
-==================================
-Pilih menu:
-```
-
-## Data UMKM
-
-```text
---- Data UMKM ---
-----------------------------------
-ID UMKM      : 1
-Nama Usaha   : Dapur Aulia
-Nama Pemilik : Aulia
-Jenis Usaha  : Kuliner
-Event        : Bazar UMKM Samarinda 2026
-Lokasi       : Samarinda
-```
-
----
+![Uploading image.png…]()
 
 # Kesimpulan
 
