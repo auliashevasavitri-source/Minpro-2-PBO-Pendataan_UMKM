@@ -117,26 +117,16 @@ Inheritance digunakan pada bagian jenis usaha.
 
 Program memiliki satu superclass yaitu `JenisUsaha` dan dua subclass yaitu `JenisKuliner` dan `JenisFashion`.
 
-Struktur inheritance yang digunakan adalah:
+Contoh penerapan pada class :
 
-```text
-JenisUsaha
-├── JenisKuliner
-└── JenisFashion
-```
+<img width="526" height="351" alt="image" src="https://github.com/user-attachments/assets/12393b3d-b07b-423b-a42a-d7ecffe35748" />
 
-Contoh penerapan pada class `JenisKuliner`:
 
-```java
-public class JenisKuliner extends JenisUsaha {
+<img width="519" height="161" alt="image" src="https://github.com/user-attachments/assets/4699c3a6-2908-4bd9-b6b8-50a87d903dcb" />
 
-    public JenisKuliner(String namaJenis) {
-        super(namaJenis);
-    }
-}
-```
 
-Class `JenisFashion` juga dibuat sebagai turunan dari `JenisUsaha`.
+<img width="533" height="174" alt="image" src="https://github.com/user-attachments/assets/23970156-cbe7-4829-ac1f-6fea6ca9f85d" />
+
 
 ### Alasan Menggunakan Inheritance
 
@@ -148,50 +138,19 @@ Dengan cara ini, hubungan antar-class menjadi lebih jelas. Selain itu, penerapan
 
 Inheritance tidak diterapkan pada class `UMKM` karena Kuliner dan Fashion lebih sesuai menjadi turunan dari `JenisUsaha`, bukan turunan dari UMKM.
 
-### Screenshot Inheritance
-
-<!-- Masukkan screenshot JenisUsaha.java -->
-
-![Superclass JenisUsaha](gambar/jenis-usaha.png)
-
-<!-- Masukkan screenshot JenisKuliner.java -->
-
-![Subclass JenisKuliner](gambar/jenis-kuliner.png)
-
-<!-- Masukkan screenshot JenisFashion.java -->
-
-![Subclass JenisFashion](gambar/jenis-fashion.png)
-
----
-
 ## 4. Input Validation
 
 Program menggunakan validasi input untuk memastikan data yang dimasukkan pengguna sesuai dengan kebutuhan program.
 
 Contoh validasi input angka:
 
-```java
-try {
-    int angka = Integer.parseInt(scanner.nextLine());
+<img width="589" height="335" alt="image" src="https://github.com/user-attachments/assets/23cf5008-8e65-4ac2-b3af-4c84f60e7388" />
 
-    if (angka <= 0) {
-        System.out.println("Input harus lebih dari 0.");
-    } else {
-        return angka;
-    }
-
-} catch (NumberFormatException e) {
-    System.out.println("Input harus berupa angka.");
-}
-```
 
 Program juga melakukan validasi untuk input teks:
 
-```java
-if (input.isEmpty()) {
-    System.out.println("Input tidak boleh kosong.");
-}
-```
+<img width="517" height="112" alt="image" src="https://github.com/user-attachments/assets/e2dcdfa3-56fb-40f8-adc0-f8783c786b7a" />
+
 
 Program juga melakukan pengecekan ID agar tidak terdapat dua UMKM dengan ID yang sama.
 
@@ -217,28 +176,7 @@ Program memiliki satu dummy data yang dimasukkan ketika program pertama kali dij
 
 Data yang digunakan:
 
-```text
-ID UMKM      : 1
-Nama Usaha   : Dapur Aulia
-Nama Pemilik : Aulia
-Jenis Usaha  : Kuliner
-Event        : Bazar UMKM Samarinda 2026
-Lokasi       : Samarinda
-```
-
-Dummy data dibuat menggunakan kode:
-
-```java
-UMKM umkm = new UMKM(
-        1,
-        "Dapur Aulia",
-        "Aulia",
-        new JenisKuliner("Kuliner"),
-        event
-);
-
-controller.tambahUMKM(umkm);
-```
+<img width="469" height="167" alt="image" src="https://github.com/user-attachments/assets/b98a1a97-9c3d-44dd-9698-f366cafface6" />
 
 ### Alasan Menggunakan Dummy Data
 
@@ -252,11 +190,8 @@ Penggunaan dummy data juga memenuhi ketentuan Mini Project 2 yang meminta minima
 
 ### Screenshot Dummy Data
 
-<!-- Masukkan screenshot hasil menu Tampilkan Data UMKM -->
+<img width="378" height="201" alt="image" src="https://github.com/user-attachments/assets/5526bf08-5b5c-495a-9adc-441329cbaf2c" />
 
-![Dummy Data](gambar/dummy-data.png)
-
----
 
 # Nilai Tambah
 
