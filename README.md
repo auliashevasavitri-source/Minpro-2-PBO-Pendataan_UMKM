@@ -66,6 +66,7 @@ Package yang digunakan terdiri dari:
 - `controller` digunakan untuk mengelola data UMKM.
 - `view` digunakan untuk tampilan dan input pengguna.
 - `com.mycompany.pendataan_umkm` berisi class utama untuk menjalankan program.
+  
 <img width="373" height="257" alt="image" src="https://github.com/user-attachments/assets/a5573c36-ae8e-4e6a-9d09-c99422555637" />
 
 # Penerapan Konsep PBO
@@ -164,11 +165,7 @@ Oleh karena itu, validasi digunakan agar program dapat menangani input yang tida
 
 ### Screenshot Input Validation
 
-<!-- Masukkan screenshot ketika memasukkan input yang salah -->
-
-![Input Validation](gambar/input-validation.png)
-
----
+<img width="395" height="242" alt="image" src="https://github.com/user-attachments/assets/d2e96eb5-b476-4d59-b8b1-c334658c008b" />
 
 ## 5. Dummy Data
 
@@ -203,22 +200,7 @@ MVC digunakan untuk memisahkan bagian program berdasarkan tugasnya. Dalam progra
 
 Struktur MVC pada program:
 
-```text
-model
-├── Event.java
-├── JenisUsaha.java
-├── JenisKuliner.java
-├── JenisFashion.java
-└── UMKM.java
-
-controller
-└── UMKMController.java
-
-view
-└── UMKMView.java
-```
-
----
+<img width="373" height="257" alt="image" src="https://github.com/user-attachments/assets/a5573c36-ae8e-4e6a-9d09-c99422555637" />
 
 ## 1. Model
 
@@ -226,11 +208,7 @@ Package `model` berisi class yang berhubungan dengan data program.
 
 Class yang terdapat dalam package `model` yaitu:
 
-- `Event.java`
-- `JenisUsaha.java`
-- `JenisKuliner.java`
-- `JenisFashion.java`
-- `UMKM.java`
+<img width="373" height="110" alt="image" src="https://github.com/user-attachments/assets/02e4b6fd-9f32-490f-847c-1e444096a39b" />
 
 Contohnya, `UMKM.java` digunakan untuk menyimpan data seperti ID UMKM, nama usaha, nama pemilik, jenis usaha, dan event.
 
@@ -242,14 +220,6 @@ Dengan pemisahan ini, class seperti `UMKM` dapat fokus pada data yang dimiliki o
 
 Hal ini membuat kode lebih mudah dibaca dan memudahkan jika data UMKM nantinya ingin dikembangkan.
 
-### Screenshot Model
-
-<!-- Masukkan screenshot package model -->
-
-![Model](gambar/model.png)
-
----
-
 ## 2. View
 
 Package `view` berisi class `UMKMView.java`.
@@ -258,18 +228,7 @@ View digunakan untuk menampilkan menu dan menerima input dari pengguna.
 
 Contohnya:
 
-```text
-==================================
-     SISTEM PENDATAAN UMKM
-==================================
-1. Tambah Data UMKM
-2. Tampilkan Data UMKM
-3. Ubah Data UMKM
-4. Hapus Data UMKM
-5. Keluar
-==================================
-Pilih menu:
-```
+<img width="451" height="212" alt="image" src="https://github.com/user-attachments/assets/67f2a070-c2f3-4984-a3d5-5c7c02a9fd18" />
 
 ### Alasan Menggunakan View
 
@@ -281,11 +240,9 @@ Hal ini membuat kode program lebih teratur karena bagian View hanya berfokus pad
 
 ### Screenshot View
 
-<!-- Masukkan screenshot UMKMView.java -->
+<img width="834" height="526" alt="image" src="https://github.com/user-attachments/assets/01d75b80-cf74-4fea-aca9-f52b3914dff3" />
 
-![View](gambar/view.png)
-
----
+<img width="707" height="532" alt="image" src="https://github.com/user-attachments/assets/f76142a7-48fa-4c99-b0c9-e0b49fb31a66" />
 
 ## 3. Controller
 
