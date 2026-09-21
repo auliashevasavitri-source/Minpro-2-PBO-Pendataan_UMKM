@@ -66,8 +66,7 @@ Package yang digunakan terdiri dari:
 - `controller` digunakan untuk mengelola data UMKM.
 - `view` digunakan untuk tampilan dan input pengguna.
 - `com.mycompany.pendataan_umkm` berisi class utama untuk menjalankan program.
-
-#<img width="373" height="257" alt="image" src="https://github.com/user-attachments/assets/a5573c36-ae8e-4e6a-9d09-c99422555637" />
+<img width="373" height="257" alt="image" src="https://github.com/user-attachments/assets/a5573c36-ae8e-4e6a-9d09-c99422555637" />
 
 # Penerapan Konsep PBO
 
@@ -97,29 +96,16 @@ Dengan menggunakan access modifier, data di dalam class menjadi lebih terkontrol
 
 ### Screenshot Access Modifier
 
-<!-- Masukkan screenshot bagian atribut private pada UMKM.java -->
+<img width="438" height="119" alt="image" src="https://github.com/user-attachments/assets/12a341e8-dcd8-4c3e-ac74-b4006e7905c0" />
 
-![Access Modifier](gambar/access-modifier.png)
-
----
 
 ## 2. Encapsulation
 
 Encapsulation diterapkan dengan membuat atribut menjadi `private`, kemudian menyediakan getter dan setter untuk mengakses atau mengubah data.
 
 Contohnya:
+<img width="441" height="299" alt="image" src="https://github.com/user-attachments/assets/6ff314ae-7c05-4464-bcd7-f47d2ea193f4" />
 
-```java
-private String namaUsaha;
-
-public String getNamaUsaha() {
-    return namaUsaha;
-}
-
-public void setNamaUsaha(String namaUsaha) {
-    this.namaUsaha = namaUsaha;
-}
-```
 
 ### Alasan Menggunakan Encapsulation
 
