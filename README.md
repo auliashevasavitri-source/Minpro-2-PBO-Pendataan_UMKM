@@ -59,29 +59,7 @@ Selama program berjalan, validasi input digunakan untuk mencegah kesalahan seper
 ---
 
 # Struktur Project
-
 Program dibagi menjadi beberapa package agar setiap bagian memiliki tugas yang berbeda.
-
-```text
-Pendataan_UMKM
-└── Source Packages
-    ├── com.mycompany.pendataan_umkm
-    │   └── Pendataan_UMKM.java
-    │
-    ├── model
-    │   ├── Event.java
-    │   ├── JenisUsaha.java
-    │   ├── JenisKuliner.java
-    │   ├── JenisFashion.java
-    │   └── UMKM.java
-    │
-    ├── controller
-    │   └── UMKMController.java
-    │
-    └── view
-        └── UMKMView.java
-```
-
 Package yang digunakan terdiri dari:
 
 - `model` digunakan untuk class yang berhubungan dengan data.
@@ -89,13 +67,7 @@ Package yang digunakan terdiri dari:
 - `view` digunakan untuk tampilan dan input pengguna.
 - `com.mycompany.pendataan_umkm` berisi class utama untuk menjalankan program.
 
-### Screenshot Struktur Project
-
-<!-- Masukkan screenshot struktur project dari NetBeans -->
-
-![Struktur Project](gambar/struktur-project.png)
-
----
+#<img width="373" height="257" alt="image" src="https://github.com/user-attachments/assets/a5573c36-ae8e-4e6a-9d09-c99422555637" />
 
 # Penerapan Konsep PBO
 
