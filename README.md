@@ -188,9 +188,6 @@ Penggunaan dummy data juga memenuhi ketentuan Mini Project 2 yang meminta minima
 
 <img width="378" height="201" alt="image" src="https://github.com/user-attachments/assets/5526bf08-5b5c-495a-9adc-441329cbaf2c" />
 
-
-# Nilai Tambah
-
 ## MVC (Model View Controller)
 
 Sebagai nilai tambah, program menerapkan konsep **MVC (Model View Controller)**.
@@ -293,19 +290,11 @@ MVC digunakan agar kode program lebih terstruktur, lebih mudah dibaca, dan lebih
 
 ## 2. Tambah Data UMKM
 
-<!-- Masukkan screenshot proses tambah data di sini -->
-
-![Tambah Data](gambar/tambah-data.png)
-
----
+<img width="506" height="241" alt="image" src="https://github.com/user-attachments/assets/1e3b3cfe-c073-4ff7-8d46-aab6c83594d8" />
 
 ## 3. Tampilkan Data UMKM
 
-<!-- Masukkan screenshot tampilan data UMKM di sini -->
 
-![Tampilkan Data](gambar/tampilkan-data.png)
-
----
 
 ## 4. Ubah Data UMKM
 
