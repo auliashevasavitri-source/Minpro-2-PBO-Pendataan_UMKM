@@ -75,6 +75,7 @@ Package yang digunakan terdiri dari:
 Pada program ini, atribut dalam class dibuat menggunakan access modifier `private`.
 
 Contohnya pada class `UMKM`:
+
 <img width="438" height="119" alt="image" src="https://github.com/user-attachments/assets/12a341e8-dcd8-4c3e-ac74-b4006e7905c0" />
 ### Alasan Menggunakan Access Modifier
 
@@ -93,7 +94,6 @@ Encapsulation diterapkan dengan membuat atribut menjadi `private`, kemudian meny
 Contohnya:
 <img width="441" height="299" alt="image" src="https://github.com/user-attachments/assets/6ff314ae-7c05-4464-bcd7-f47d2ea193f4" />
 
-
 ### Alasan Menggunakan Encapsulation
 
 Encapsulation digunakan karena program memiliki data UMKM yang perlu disimpan dan dapat diubah melalui menu program.
@@ -102,19 +102,14 @@ Jika atribut dibuat `public`, class lain dapat mengubah data secara langsung. De
 
 Contohnya ketika pengguna memilih menu **Ubah Data UMKM**, program menggunakan:
 
-```java
-umkm.setNamaUsaha(namaUsaha);
-```
+<img width="539" height="82" alt="image" src="https://github.com/user-attachments/assets/9f4b75ba-51f7-4093-88c9-c1c216146fdc" />
+
 
 Dengan cara tersebut, pengelolaan data menjadi lebih teratur dan data yang ada di dalam object tetap terkontrol.
 
 ### Screenshot Encapsulation
 
-<!-- Masukkan screenshot getter dan setter pada UMKM.java -->
-
-![Encapsulation](gambar/encapsulation.png)
-
----
+<img width="679" height="519" alt="image" src="https://github.com/user-attachments/assets/1658b045-7b80-44d6-b9b9-0254be6fad9a" />
 
 ## 3. Inheritance
 
