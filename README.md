@@ -299,12 +299,12 @@ MVC digunakan agar kode program lebih terstruktur, lebih mudah dibaca, dan lebih
 
 ## 4. Ubah Data UMKM
 
-![Uploading image.png…]()
+<img width="513" height="235" alt="image" src="https://github.com/user-attachments/assets/1010c759-7447-4c46-94b7-f73ea627f56a" />
 
 
 ## 5. Hapus Data UMKM
 
-![Uploading image.png…]()
+<img width="423" height="132" alt="image" src="https://github.com/user-attachments/assets/992e2190-8bc2-4f31-b193-ebbfa89f74e1" />
 
 # Kesimpulan
 
