@@ -53,9 +53,8 @@ Selama program berjalan, validasi input digunakan untuk mencegah kesalahan seper
 
 ### Screenshot Alur Program
 
-<!-- Masukkan screenshot alur/cara kerja program jika diperlukan -->
+<img width="547" height="227" alt="image" src="https://github.com/user-attachments/assets/a4155e0a-f7d4-4d3f-993f-aaf6cac54e1f" />
 
-![Alur Program](gambar/alur-program.png)
 
 ---
 
